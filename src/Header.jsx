@@ -3,9 +3,9 @@ import React from 'react';
 function Header() {
     return (
         <>
-            <div className='flex  '>
+            <div className=' flex justify-between items-center '>
                 {/* this is left Menu icon and youtube logo */}
-                <div>
+                <div className='flex items-center '>
                     <h1>m</h1>
                     <img src="" alt="" />
                 </div>
@@ -15,7 +15,7 @@ function Header() {
                     <h1>Serch</h1>
                 </div>
                 {/* look this end part of youtube */}
-                <div>
+                <div className='flex gap-2'>
                     <h1>vi</h1>
                     <h1>appi</h1>
                     <h1>noti</h1>
