@@ -8,9 +8,9 @@ function App() {
   return (
     < >
       <Header />
-      <div className='flex'>
-        <Recommended className=' ' />
-        <Sideber className='' />
+      <div className='flex col-span-12'>
+        <Sideber className=' ' />
+        <Recommended className='   ' />
       </div>
     </>
   );
