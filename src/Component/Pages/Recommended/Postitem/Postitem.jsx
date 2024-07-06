@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../../../Assist/Img/Thamrel.png"
+import img from "../../../../Assist/Img/Thamrel.png"
 
 function Postitem() {
     return (

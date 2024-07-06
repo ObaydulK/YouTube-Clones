@@ -1,23 +1,17 @@
 
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Recommended from './Component/Recommended/Recommended';
-import Sideber from './Component/Sidebar/Sideber';
-import Header from './Header';
+import './App.css'; 
+import Nevber from './Component/Pages/Nevber/Nevber';
+import Home from './Component/Pages/Home/Home';
 
 function App() {
   return (
     < >
-      <Header />
-
-      <div className='flex col-span-12'>
+      <Nevber />
       <Routes>
-        {/* <Route path='/' element={} /> */}
-
+        <Route path='/' element={<Home/>} />
+        
       </Routes>
-        <Sideber className=' ' />
-        <Recommended className='   ' />
-      </div>
     </>
   );
 }
